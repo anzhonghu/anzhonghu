@@ -1,10 +1,9 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Anzhong Hu's homepage
+author: Anzhong Hu
+email: huaz@hdu.edu.cn
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is Dr. Anzhong Hu's homepage, which includes his
+  research and teaching details.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,22 +11,26 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Anzhong Hu
+  tagline: Associate Professor
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
+    - title: Teaching&Supervision
+      url: "/teachingsupervision"
+    - title: Projects
+      url: "/projects"
+    - title: Projects
+      url: "/projects"
+    - title: Publications
+      url: "/publications"
+    - title: CV
+      url: "/publications"
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    github:  anzhonghu
+    linkedIn: in/anzhonghu
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
