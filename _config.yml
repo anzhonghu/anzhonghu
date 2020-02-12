@@ -81,9 +81,9 @@ author:
   avatar           : "profile.png"
   location         : "Location"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=D7KEVpMAAAAJ"
+  email            : "huaz@hdu.edu.cn"
+  researchgate     :  "https://www.researchgate.net/profile/Anzhong_Hu"
   uri              :
   bitbucket        :
   codepen          :
@@ -91,13 +91,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "anzhonghu"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-3618-6321"
   pinterest        :
   soundcloud       :
   steam            :
@@ -107,6 +107,12 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+
+  Linkedin            :"https://www.linkedin.com/in/anzhonghu"
+  IEEE Xplore        :"https://ieeexplore.ieee.org/author/37086223623"
+  HDU        :"http://comm.hdu.edu.cn/2018/0526/c2866a71206/pagem.htm"
+
+
 
 
 # Reading Files
