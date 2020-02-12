@@ -20,8 +20,6 @@ plainwhite:
       url: "/teachingsupervision"
     - title: Projects
       url: "/projects"
-    - title: Projects
-      url: "/projects"
     - title: Publications
       url: "/publications"
     - title: CV
@@ -31,7 +29,6 @@ plainwhite:
   social_links:
     github:  anzhonghu
     linkedIn: in/anzhonghu
-    E-Mail: mailto:huaz@hdu.edu.cn || envelope
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
