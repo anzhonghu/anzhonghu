@@ -83,11 +83,11 @@ author:
   name             : "Anzhong Hu"
   avatar           : "profile.png"
   bio              : "Associate professor"
-  location         : "Location"
+  location         : "Hangzhou, China"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=D7KEVpMAAAAJ"
-  email            : "mailto:huaz@hdu.edu.cn"
+  email            : "huaz@hdu.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Anzhong_Hu"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/anzhonghu/"
+  linkedin         : "anzhonghu"
   orcid            : "http://orcid.org/0000-0003-3618-6321"
   pinterest        :
   soundcloud       :
@@ -227,7 +227,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _chinese
   - scope:
       path: ""
       type: portfolio
@@ -236,7 +236,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _proejcts
   - scope:
       path: ""
       type: talks
