@@ -83,7 +83,7 @@ author:
   name             : "Anzhong Hu"
   avatar           : "profile.png"
   bio              : "Associate professor"
-  location         : "Hangzhou, China"
+  location         : "https://goo.gl/maps/2RNqM8VnEWSAJy3r8"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=D7KEVpMAAAAJ"
@@ -227,6 +227,17 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
+
+  - scope:
+    path: ""
+    type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
   # _talks
 
   - scope:
