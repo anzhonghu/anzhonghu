@@ -22,8 +22,6 @@ plainwhite:
       url: "/projects"
     - title: Publications
       url: "/publications"
-    - title: CV
-      url: "/publications"
 
   # generate social links in footer
   social_links:
@@ -59,4 +57,5 @@ theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
+
 #  - jekyll-feed
