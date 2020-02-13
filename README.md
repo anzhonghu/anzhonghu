@@ -1,146 +1,79 @@
-# plainwhite
+Dr. Jekyll: A scholarly website template.
+===================
 
-Simplistic jekyll portfolio-style theme for writers.
+This Jekyll template is meant for young (or established) scholars who would like to set up a website quickly and have it remain stable in the future.
 
-**Demo**: [thelehhman.com](https://thelehhman.com)
+The template includes a built in bibliography using bibtex format that you can use to update your incredibly long publication list (knock on wood).
 
-![plainwhite theme preview](/screenshot.png)
+___
 
-## Installation on Github Pages
+## Key Elements
+The template comes with the following features:
 
-Add this line to your site's `_config.yml`:
+1. Easily adjust the title, url, and favicon in the `config.yml` file.
+2. Change the "About Me" section, the "Courses" list, and "Contact Me" info in the `_data/settings.yml` file.
+3. A bibliography can be built easily using a `.bib` file and `bibtex`.
+4. Easily create course pages and host files for your classes.
 
-```yaml
-remote_theme: thelehhman/plainwhite-jekyll
+---
+## Use
+To use this template, you need to build the site locally. The [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar) plugin is not supported by Github.
+
+Here is a brief description of the necessary steps to customize your site:
+
+1. Download the repository.
+2. Update the `config.yml` file with your preferred settings for title, url, etc.
+3. Update the `_data/settings.yml` file with your "About Me" blurb, your course list, and your contact information.
+4. For each course, you can either link to an external site or create a new page. To create a new course page, copy the `temp_course` folder and update the necessary information (add lecture slides, change the front matter in the `index.html` file, change folder names, etc.).
+5. Put any files (e.g. CV, pdf's of articles, etc.) in the `assets/files` folder.
+6. If you would like to change the bibliography style, add your custom `.csl` file to the `assets\bib` folder.
+7. Update the `_mybib.bib` file to include all of your amazing articles.
+8. Change the bio-photo (200 x 220) and the background image (2634 x 1756 ... although you don't necessarily need such a high resolution image).
+9. Update the colors in `assets/css/2-base/_vars.sass`. In particular, `accent-color` is the most used (if not the only...).
+
+Once the site looks the way you want it, you need to push it to Github. To build the site locally and push the necessary files, do the following (note: this assumes you already have a Github pages site and associated local repository. If not, check out [this page for directions](https://pages.github.com/).):
+
+0. Ensure that your customized DrJekyll folder is ***outside*** of the Github pages repository.
+1. Copy your local github repository to a safe place (because we are going to delete it).
+2. `cd` into your local repository and delete the files:
+
+  ```
+  git rm -rf .
+  ```
+3. `cd` into your DrJekyll folder and build it using Jekyll:
+
+  ```
+  jekyll build
+  ```
+4. Using either your GUI or the command line, copy the contents of the `DrJekyll/_site` folder into your local Github Pages repository.
+5. Create an empty file in your local Github Pages repository titled `.nojekyll`.
+6. Follow your usual Github push steps. For me I run the following:
+
+  ```
+  git status
+  git add --all
+  git commit -m "Publishing my sweet website."
+  git push origin master
+  ```
+
+Now, enjoy your handiwork!
+
+---
+
+## A Note On The bibliography
+The included sample `.bib` file includes the following bibliography entry:
+
 ```
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "plainwhite"
+@article{jekyll1885schizo,
+  title={Home Remedies for Multiple Personality Disorders},
+  author={Jekyll, Henry},
+  year={1885},
+  URL={https://alongsite.com/HOO.pdfLINK:arXiv;https://alongsite.com/BOO.pdfLINK:NBER;/assets/files/paper.pdfLINK:PDF}
+}
 ```
+This looks like a typical entry, ***except the URL***. If your paper is hosted in several locations, you can link to all of those places using this line.
 
-And add this line to your Jekyll site's `_config.yml`:
+The format is `urlLINK:linktext;urlLINK:linktext`, where you need to replace the link `url` and the `linktext` with whatever you would like. Each url needs to be seperated by a semicolon, `;`.
 
-```yaml
-theme: plainwhite
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install plainwhite
-
-## Usage
-
-The "plainwhite" key in \_config.yml is used to customize the theme data.
-
-```yaml
-plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-
-  social_links:
-    twitter: thelehhman
-    github: thelehhman
-    linkedIn: in/thelehhman # format: locale/username
-```
-
-**Updating Placeholder Image**
-
-The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website.
-
-**Comments (Disqus)**
-
-Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
-
-```yaml
-plainwhite:
-  disqus_shortname: games
-```
-
-**Google Analytics**
-
-It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
-
-```yaml
-plainwhite:
-  analytics_id: "< YOUR ID >"
-```
-
-**Sitemap**
-
-It can be toggled by the following line to under plainwhite in `_config.yml`
-
-```yaml
-plainwhite:
-  sitemap: true
-```
-
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-
-```yaml
-show_excerpts: true
-```
-
-**Layouts**
-
-- Home
-- Page
-- Post
-
-**Navigation**
-
-Navigation can be enabled by adding the following line to your `_config.yml`
-
-```yaml
-plainwhite:
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
-```
-
-**Multiline tagline**
-
-Tagline can be multiline in this way
-
-```yaml
-plainwhite:
-  tagline: |
-  First Line. 
-
-  Second Line. 
-
-  Third Line.
-```
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `plainwhite.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## More themes
-
-- [Texture](https://github.com/thelehhman/texture)
+## Tracking
+If you are a self obsessed sociopath or insecure graduate student, like myself, you can easily add analytics by creating a Google Tag Manager account and pasting the container code onto any of the `index.html` pages. Another nifty idea would to be to create an include for analytics, but since the site is quite simple, I'll leave this to you.

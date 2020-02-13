@@ -1,61 +1,47 @@
-title: Anzhong Hu's homepage
-author: Anzhong Hu
-email: huaz@hdu.edu.cn
-description: > # this means to ignore newlines until "show_exerpts:"
-  This is Dr. Anzhong Hu's homepage, which includes his
-  research and teaching details.
-show_excerpts: true # set to true to show excerpts on the homepage
-remote_theme: thelehhman/plainwhite-jekyll
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: Anzhong Hu
-  tagline: Associate Professor
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  navigation:
-    - title: Teaching&Supervision
-      url: "/teachingsupervision"
-    - title: Projects
-      url: "/projects"
-    - title: Publications
-      url: "/publications"
-
-  # generate social links in footer
-  social_links:
-    github:  anzhonghu
-    linkedIn: in/anzhonghu
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# Site settings
+title: Henry Jekyll
 
 # Build settings
-theme: plainwhite
+markdown: kramdown
+permalink: pretty
 
-plugins:
-  - jekyll-seo-tag
+favicon: "/assets/img/temp_chem.jpg"
 
-#  - jekyll-feed
+port: 3000
+url: http://localhost:3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Add bibliography
+gems: ['jekyll/scholar']
+
+scholar:
+  style: assets/bib/_ieee-with-url.csl
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: assets/bib
+  bibliography: _mybib.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+  - HTML
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
