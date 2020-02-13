@@ -1,28 +1,21 @@
 ---
-layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+layout: Anzhong Hu's Homepage
+title:  "Welcome!"
+date:   2020-02-13 21:03:36 +0530
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+Anzhong Hu received his PhD in signal and information processing from Beijing University of Posts and Telecommunications (BUPT) in 2014. He joined Hangzhou Dianzi University (HDU) in 2014, where he is currently an associate professor. He has been working as a visiting researcher at Chalmers University of Technology (CTH) since Jun. 2019.
 
-```javascript
-const Razorpay = require('razorpay');
+He has been the principle investigator in 3 science projects, which are funded by National Natural Science Foundation of China (NSFC) and Zhejiang Provisional Natural Science Foundation. He has coauthored over 20 papers in journals and international conference proceedings. His research expertise include signal processing, system design, and parameter optimization in massive multiple-input multiple output (MIMO)  systems and millimeter wave (mmWave) systems.
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
+Education
+PhD:    Signal and Information Processing, Beijing University of Posts and Telecommunications (BUPT), Beijing, China, 2009-2014
+BEng:   Communication Engineering, Zhejiang University of Technology (ZJUT), Hangzhou, China, 2005-2009
 
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
-```
+Work Experience:
+Associate professor, Hangzhou Dianzi University (HDU), Hanghzhou, China, Jan. 2020-present
+Visiting researcher, Chalmers University of Technology (CTH), Sweden, Jun. 2019-present
+Lecturer, Hangzhou Dianzi University (HDU), Hanghzhou, China, Jul. 2014-Dec. 2019
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Email: huaz@hdu.edu.cn
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Google Scholar, Research gate, ORCID, CV
