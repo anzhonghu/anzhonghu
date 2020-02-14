@@ -7,6 +7,8 @@ venue: "HDU"
 date: 2014-09-01 to 2020-02-12
 location: "Hangzhou, China"
 ---
+10 courses delivered in 5 years
+
 ### Table
 
 | Label                   |     Course                                                           |
@@ -31,13 +33,3 @@ location: "Hangzhou, China"
 | 2016-09 to 2017-07    | 371  |[AET](#) [CC](#) [EC](#) [ECC](#)[CDCS](#)[SUT](#) |
 | 2017-09 to 2018-07    | 426   |[AET](#) [CC](#) [EC](#)[CDCS](#)[SUT](#) [EDSP](#)  |
 | 2018-09 to 2019-07    | 264   |[AET](#) [CC](#) [EC](#) [EPC](#)[CDCS](#)[SUT](#)[PC](#) |
-
-### Table
-
-| Year                  |     Instrction                            |
-| ---------------- | -----------------------------------------------|
-| 2014-09 to 2017-07       | Class Teacher   Class 3      |
-| 2017-09 to present       | Class Teacher     Class 2       |
-| 2017-09 to present       | Master Supervision    Y. Ding    |
-| 2018-09 to present       | Master Supervision    D. Chu    |
-| 2019-09 to present       |Master Supervision     Q. Huang   |
