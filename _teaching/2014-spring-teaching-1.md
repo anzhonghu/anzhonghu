@@ -11,7 +11,7 @@ location: "Hangzhou, China"
 
 ### Table
 
-| Label                   |     Course  |       Hours  |                                                     |
+| Label                   |     Course  |       Hours  |
 | ---------------- | ------------------------------------|--------|
 | [PC](#)        | Principle of Communication            |      64|
 | [AET](#)       | Analog Electronics Technology         |      48|
