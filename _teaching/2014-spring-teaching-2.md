@@ -21,8 +21,8 @@ location: "Hangzhou, China"
 
 ### Master Students  Instruction
 
-| Year                  |     Instrction                            |
+| Year                  |     Number                   |
 | ---------------- | -----------------------------------------------|
-| 2019-09 to present       | Master Supervision    Qiufang Huang   |
-| 2018-09 to present       | Master Supervision    Deming Chu    |
-| 2017-09 to present       | Master Supervision    Yadi Ding    |
+| 2019-09 to present       | 1   |
+| 2018-09 to present       | 1    |
+| 2017-09 to present       | 1    |
