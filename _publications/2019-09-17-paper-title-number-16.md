@@ -11,5 +11,3 @@ citation: 'Y. Ding and A. Hu,  "Grouping optimization based hybrid beamforming f
 ---
 In millimeter-wave massive multiple input multiple output multiuser systems, inter-user interference becomes a major factor limiting system capacity. The premise of increasing system capacity is to minimize inter-user interference on the basis of ensuring large receiving power. In response to this situation, this paper proposes a low complexity
 grouping optimization based hybrid beamforming (HBF) algorithm.
-
-[Download paper here](https://github.com/anzhonghu/Grouping-optimization-based-hybrid-beamforming-for-multiuser-MmWave-massive-MIMO-systems)

@@ -9,5 +9,3 @@ paperurl: 'https://github.com/anzhonghu/Beam-grouping-based-user-scheduling-in-m
 citation: 'A. Hu,  "Beam grouping based user scheduling in multi-cell millimeter-wave MIMO systems," <i>IEEE Access</i>, vol. 6, pp. 55004-55012, Oct. 2018.'
 ---
 This paper investigates the user scheduling in multi-cell millimeter-wave multiple-input multiple-output systems, and a user scheduling criterion which minimizes the inter-cell interference and maximizes the effective channel gain is proposed.
-
-[Download paper here](https://github.com/anzhonghu/Beam-grouping-based-user-scheduling-in-multi-cell-millimeter-wave-MIMO-systems)

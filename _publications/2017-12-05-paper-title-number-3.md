@@ -11,5 +11,3 @@ citation: 'A. Hu and P. Pan,  "Concavity approximation based power allocation in
 ---
 This paper investigates the power allocation in millimeter-wave multiple-input multiple-output systems, in which the proposed approach utilizes a channel asymptotic orthogonality-based approximation which is more suitable, thus achieves higher spectral
 efficiency.
-
-[Download paper here](https://github.com/anzhonghu/Concavity-approximation-based-power-allocation-in-millimeter-wave-MIMO-systems)

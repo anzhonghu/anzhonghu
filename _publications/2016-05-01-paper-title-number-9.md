@@ -11,5 +11,3 @@ citation: 'A. Hu,  "Estimation of sparse channels in millimeter-wave MU-MIMO sys
 ---
 This paper considers a channel estimation scheme for millimeter-wave multiuser
 multiple-input multiple-output systems. According to the proposed method, parts of the beams are selected and the channel parameters are estimated according to the sparsity of channels and the orthogonality of the beams.
-
-[Download paper here](https://github.com/anzhonghu/Estimation-of-sparse-channels-in-millimeter-wave-MU-MIMO-systems)
