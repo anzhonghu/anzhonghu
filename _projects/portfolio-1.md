@@ -13,5 +13,4 @@ collection: portfolio
 | 2017-2020     | Automatic grouping of batteries array system based on big data learning| National Natural Science Foundation of China|      2.1M| co-investigator|
 | 2016-2018      | Investigation of three dimensional beamforming in massive MIMO systems| Zhejiang Provinsional Natural Science Foundation|      50K| Principal investigator|
 | 2015-2018     | Investigation of the construction of  LDPC codes in block-fading channels| Zhejiang Provinsional Natural Science Foundation|      100K| co-investigator|
-| 2014-2016      | Investigation of inter-cell interference mitigation in massive MIMO systems based on angle of arrival| Hangzhou Dianzi University|      40K| Principal investigator|
-
+| 2013-2016      | Investigation of interference management technology in MIMO multiway relay systems| National Natural Science Foundation of China|      850K| co-investigator|
