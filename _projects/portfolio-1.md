@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-excerpt: "principal investigator of 4 projects and co-investigator of 3 projects"
+excerpt: "principal investigator of 3 projects and co-investigator of 4 projects"
 collection: portfolio
 ---
 ### Table
