@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an associate professor at Hangzhou Dianzi University (HDU). I have been the principle investigator in 3 science projects and have coauthored over 20 papers in journals and international conference proceedings. My research expertise include signal processing, system design, and parameter optimization in massive multiple-input multiple output (MIMO)  systems and millimeter wave (mmWave) systems. 
+I'm an associate professor at Hangzhou Dianzi University (HDU). I have been the principle investigator in 3 science projects and have coauthored over 20 papers in journals and international conference proceedings. My research expertise include signal processing, system design, and parameter optimization in massive multiple-input multiple output (MIMO)  systems and millimeter wave (mmWave) systems.
 
 Education
 ------
@@ -20,7 +20,7 @@ Work Experience
 ------
 Associate professor, Hangzhou Dianzi University (HDU), Hanghzhou, China, Jan. 2020-present
 
-Visiting researcher, Chalmers University of Technology (CTH), Sweden, Jun. 2019-present
+Visiting researcher, Chalmers University of Technology (CTH), Sweden, Jun. 2019-Jun. 2020
 
 Lecturer, Hangzhou Dianzi University (HDU), Hanghzhou, China, Jul. 2014-Dec. 2019
 
