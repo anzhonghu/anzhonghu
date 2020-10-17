@@ -11,7 +11,7 @@ way with the object of maximizing the sum rate upper bound.'
 date: 2020-05-01
 venue: 'IEEE Trans. Veh. Technol.'
 paperurl: 'https://github.com/anzhonghu/Pilot-Design-and-Allocation-for-Multi-Cell-Massive-MIMO-Systems-with-Two-Tier-Receiving'
-citation: 'A. Hu, "Pilot design and allocation for multi-cell massive MIMO systems with two-tier receiving,"IEEE Trans. Veh. Technol., vol. PP, no. PP, pp. 1–14, May 2020.'
+citation: 'A. Hu, "Pilot design and allocation for multi-cell massive MIMO systems with two-tier receiving," IEEE Trans. Veh. Technol., vol. 69, no. 7, pp. 7443–7457, Jul. 2020.'
 ---
 This paper investigates pilot design and allocation
 in multi-cell massive multiple-input multiple-output systems with
