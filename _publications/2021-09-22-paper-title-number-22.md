@@ -13,7 +13,7 @@ the number of subcarriers on the beam squint effect are revealed.'
 date: 2021-09-22
 venue: 'IEEE ICEICT 2021'
 paperurl: 'https://github.com/anzhonghu/Wideband-Millimeter-wave-OFDM-Uplink-with-Hybrid-Receiving'
-citation: 'Y. Li and A. Hu, "Wideband millimeter-wave OFDM uplink with hybrid receiving," in Proc. IEEE 4th Int. Conf. Electron. Inform. and Commun. Tech., Xian, China, Aug. 2021, pp. 735-739.'
+citation: 'Y. Li and A. Hu, "Wideband millimeter-wave OFDM uplink with hybrid receiving," in Proc. IEEE 4th Int. Conf. Electron. Inform. and Commun. Tech., Xi\'an, China, Aug. 2021, pp. 735-739.'
 ---
 In this paper, we study millimeter-wave orthogonal
 frequency division multiplexing uplink transmission with a wide
