@@ -1,5 +1,5 @@
 ---
-title: "Wideband-Millimeter-wave-OFDM-Uplink-with-Hybrid-Receiving"
+title: "Wideband Millimeter wave OFDM Uplink with Hybrid Receiving"
 collection: publications
 permalink: /publication/2021-09-22-paper-title-number-22
 excerpt: 'In this paper, we study millimeter-wave orthogonal frequency division multiplexing uplink transmission with a wide bandwidth and hybrid receiving. By considering the spatial- and frequency-wideband effects in the channel model, the spectral efficiency of the system is analyzed. The analysis and the
