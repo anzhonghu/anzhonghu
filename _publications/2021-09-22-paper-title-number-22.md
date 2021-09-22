@@ -1,11 +1,25 @@
 ---
-title: "xx"
+title: "Wideband Millimeter-wave OFDM Uplink with Hybrid Receiving"
 collection: publications
 permalink: /publication/2021-09-22-paper-title-number-22
-excerpt: 'In this paper, beam learning based on position information (PI) about mobile station positions in the initial access (IA) of millimeter wave (mmWave) multiple input multiple output cellular networks is investigated. Based on the sparse scattering of mmWave signals, the serving area is partitioned into smaller areas and the beams are learned for each small area. Moreover, the number of learned beams is restricted and fixed after learning. Thus, the impact of position inaccuracy and blockage can be mostly mitigated and the IA delay is short in each successful IA.'
-date: 2020-10-17
-venue: 'IEEE Syst. J.'
-paperurl: 'https://github.com/anzhonghu/Position-Aided-Beam-Learning-for-Initial-Access'
-citation: 'A. Hu and J. He, "Position aided beam learning for initial access in mmWave MIMO cellular networks," IEEE Syst. J., vol. PP, no. PP, pp. 1-12, Oct. 2020.'
+excerpt: 'In this paper, we study millimeter-wave orthogonal
+frequency division multiplexing uplink transmission with a wide
+bandwidth and hybrid receiving. By considering the spatial- and
+frequency-wideband effects in the channel model, the spectral
+efficiency of the system is analyzed. The analysis and the
+simulation results show the beam squint effect caused by the
+wideband effects. Moreover, the impacts of the bandwidth and
+the number of subcarriers on the beam squint effect are revealed.'
+date: 2021-09-22
+venue: 'IEEE ICEICT 2021'
+paperurl: 'https://github.com/anzhonghu/Wideband-Millimeter-wave-OFDM-Uplink-with-Hybrid-Receiving'
+citation: 'Y. Li and A. Hu, "Wideband millimeter-wave OFDM uplink with hybrid receiving," in Proc. IEEE 4th Int. Conf. Electron. Inform. and Commun. Tech., Xian, China, Aug. 2021, pp. 735-739.'
 ---
-In this paper, beam learning based on position information (PI) about mobile station positions in the initial access (IA) of millimeter wave (mmWave) multiple input multiple output cellular networks is investigated. Based on the sparse scattering of mmWave signals, the serving area is partitioned into smaller areas and the beams are learned for each small area. Moreover, the number of learned beams is restricted and fixed after learning. Thus, the impact of position inaccuracy and blockage can be mostly mitigated and the IA delay is short in each successful IA.
+In this paper, we study millimeter-wave orthogonal
+frequency division multiplexing uplink transmission with a wide
+bandwidth and hybrid receiving. By considering the spatial- and
+frequency-wideband effects in the channel model, the spectral
+efficiency of the system is analyzed. The analysis and the
+simulation results show the beam squint effect caused by the
+wideband effects. Moreover, the impacts of the bandwidth and
+the number of subcarriers on the beam squint effect are revealed.
